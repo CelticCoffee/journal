@@ -1,0 +1,30 @@
+main.css
+
+body {
+	
+}
+
+h1 {
+font-family: Raleway, sans-serif;
+}
+
+.columnLeft {
+	font-family: 'Josefin Sans', sans-serif; 
+	width: 30%;
+	margin: 0 20px;
+}
+
+nav {
+	background-color: #F4A460;
+}
+
+nav ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: left;
+	margin-left: 0px;
+}
