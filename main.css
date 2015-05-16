@@ -3,84 +3,99 @@ main.css
 /*****************
 HEADING
 *****************/
-h1  {
-font-family: 'Raleway', sans-serif;
-font-size: 1.75em;
-width: 100%;
-float: left;
-}
-
-/*This nav a is the three links*/
-nav a {
-	display: inline-block;
-	text-decoration: none;
-	text-align: right;
-}	
-
-h3 {
-font-family: 'Raleway', sans-serif;
-width: 100%;
-text-align: right;
-font-size: 1.25em;
-}
-
-
-/*****************
-COLUMN LEFT
-*****************/
-
-.columnLeft {
-	
-	font-family: 'Josefin Sans', sans-serif; 
-	width: 25%;
-	padding: 2.5%;
-	float: left;
-	list-style: none;
-	display: inline-block;
-}
-
-}
-img {
-	max-width: 100%;
-	max-height: 100%;
-	vertical-align: left;
-	margin-left: 0px;
-}
-
-/*****************
-ARTICLE
-*****************/
-/* .box is applied to all of the individual story boxes*/
-.box {
-	padding: 2.5%;
-	margin: 0px;
-	width: 60%;
-	float: left;
-	font-family: 'Josefin Sans', sans-serif; 
-
-}
-/* .firstBox is the most recent article*/
-
-
-.secondBox {
-	margin: 0 30%;
+.wrapper {
+	margin: 0 auto;
 }
 
 h1 {
+font-family: 'Raleway', sans-serif;
+font-size: 1.75em;
+}
+
+/*This nav a is the contact links*/
+nav a {
+	display: inline-block;
+	text-decoration: none;
+
+}	
+
+/*This is the styling for the contact links*/
+#contact {
+font-family: 'Raleway', sans-serif;
+max-width: 1000px;
+text-align: right;
+text-indent: 1%;
+font-size: 1em;
+margin: 0 10%;
+
+}
+
+
+
+/*****************
+Possible Boxes
+*****************/
+.section {
+	float: left;
+}
+
+.pictureBox {
+	max-width: 220px;
+	margin: 0;
+	display: inline-block;
+	padding: 10px;
+	font-family: 'Josefin Sans', sans-serif;
+	list-style: none;
+	float: left;
+}
+img {
+	max-height: 200px;
+	max-width: 201px;
+	margin: 0;
+	float: left;
+}
+
+.firstBox {
+	margin: 0 10%;
+	max-width: 760px;
+	float: left;
+	max-height: auto;
+	width: 70%;
+	/*background-color: green;*/
+	font-family: 'Josefin Sans', sans-serif; 	
+	padding: 20px;
+}
+.secondBox {
+	margin: 0 10%;
+	max-width: 760px;
+	max-height: auto;
+	float: left;
+	width: 70%;
+	/*background-color: lightBlue;*/
+	font-family: 'Josefin Sans', sans-serif; 
+	padding: 20px;	
+}
+
+h2 {
 	font-family: 'Raleway', sans-serif;
 }
 
-/*h2 {
-	font-family: 'Josefin Sans', sans-serif;*/
+h3 {
+	font-family: 'Raleway', sans-serif;
 }
 
+.footer {
+	margin: 0;
+	max-width: 780px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	font-size: .5em;
+	float: left;
+
+}
 
 
 /*****************
 FOOTER
 *****************/
-
-.footer {
-	float: left;
-}
 
