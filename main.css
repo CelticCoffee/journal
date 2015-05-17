@@ -22,18 +22,17 @@ nav a {
 /*This is the styling for the contact links*/
 #contact {
 font-family: 'Raleway', sans-serif;
-max-width: 1000px;
+max-width: 1000px;  /*Don't want the text getting crazy wide even if large montior*/
 text-align: right;
 text-indent: 1%;
 font-size: 1em;
 margin: 0 10%;
-
 }
 
 
 
 /*****************
-Possible Boxes
+CONTENT
 *****************/
 .section {
 	float: left;
@@ -60,20 +59,26 @@ img {
 	max-width: 760px;
 	float: left;
 	max-height: auto;
-	width: 70%;
-	/*background-color: green;*/
+	width: 50%;
 	font-family: 'Josefin Sans', sans-serif; 	
 	padding: 20px;
 }
 .secondBox {
-	margin: 0 10%;
+	margin: 0 0 0 10%;
 	max-width: 760px;
-	max-height: auto;
+	/*max-height: auto;*/
 	float: left;
-	width: 70%;
-	/*background-color: lightBlue;*/
+	width: 30%;
 	font-family: 'Josefin Sans', sans-serif; 
 	padding: 20px;	
+}
+
+.secondBoxImage {
+	margin: 9% 10% 0 0;
+	float: left;
+	max-width: 201px;
+	max-height: auto;
+	/*padding: 20px;*/
 }
 
 h2 {
@@ -84,18 +89,23 @@ h3 {
 	font-family: 'Raleway', sans-serif;
 }
 
-.footer {
-	margin: 0;
-	max-width: 780px;
-	font-family: 'Josefin Sans', sans-serif;
-	text-align: center;
-	font-size: .5em;
-	float: left;
-
-}
 
 
 /*****************
-FOOTER
+PAGE FOOTER
 *****************/
+.footer {
+	font-family: 'Josefin Sans', sans-serif;
+	max-width: 1000px;
+	text-align: center;
+	margin: 0 10%;
+	padding: 20px;
+	font-size: .75em;
+	position:bottom:0;  /*I really like this!  This and the next 2 lines keep the footer at the bottom*/
+	width: 100%;
+	display:block;
+	float: left;
+}
+
+
 
