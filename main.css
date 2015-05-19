@@ -1,4 +1,4 @@
-main.css
+/*main.css*/
 
 /*****************
 HEADING
@@ -8,8 +8,8 @@ HEADING
 }
 
 h1 {
-font-family: 'Raleway', sans-serif;
-font-size: 1.75em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.75em;
 }
 
 /*This nav a is the contact links*/
@@ -21,12 +21,12 @@ nav a {
 
 /*This is the styling for the contact links*/
 #contact {
-font-family: 'Raleway', sans-serif;
-max-width: 1000px;  /*Don't want the text getting crazy wide even if large montior*/
-text-align: right;
-text-indent: 1%;
-font-size: 1em;
-margin: 0 10%;
+	font-family: 'Raleway', sans-serif;
+	max-width: 1000px;  /*Don't want the text getting crazy wide even if large montior*/
+	text-align: right;
+	text-indent: 1%;
+	font-size: 1em;
+	margin: 0 10%;
 }
 
 
