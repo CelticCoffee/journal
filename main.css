@@ -19,19 +19,22 @@ h1 {
 	display: inline-block;
 	float: left; 
 	margin: auto;
+	width: 100%;
+	text-align: right;
+
 }	
 
 li {
   display: inline-block;
-  float: left;
   padding: 10px;
+  
+
 }
 
 a {
   text-decoration: none;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Josefin-sans', sans-serif;
   color: black;
-  float: left;
 }
 
 a:hover {
@@ -50,10 +53,14 @@ CONTENT
 	margin: 0;
 	display: inline-block;
 	padding: 10px;
-	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Josefin Sans', sans-serif;*/
 	list-style: none;
 	float: left;
+	background-color: lightyellow;
 }
+
+ 
+
 img {
 	max-height: 200px;
 	max-width: 201px;
