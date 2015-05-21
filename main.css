@@ -1,111 +1,63 @@
-/*main.css*/
-
-/*****************
-HEADING
-*****************/
-.wrapper {
-	margin: 0 auto;
+/**************
+GLOBAL
+***************/
+a {
+	color: black;
+	text-decoration: none;  /*okay to globally define since I don't want any of the links underlined*/
+	list-style: none;
 }
 
+a:hover {
+	color: red;
+}
+
+
+/**************
+HEADER
+***************/
 h1 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.75em;
+	font-size: 2em;
+	text-align: left;
 }
 
-/*This nav a is the contact links*/
-nav a {
+
+.contact {
 	display: inline-block;
-	text-decoration: none;
-
-}	
-
-/*This is the styling for the contact links*/
-#contact {
 	font-family: 'Raleway', sans-serif;
-	max-width: 1000px;  /*Don't want the text getting crazy wide even if large montior*/
+	font-size: 1.25em;	
 	text-align: right;
-	text-indent: 1%;
-	font-size: 1em;
-	margin: 0 10%;
 }
 
 
 
-/*****************
-CONTENT
-*****************/
-.section {
-	float: left;
-}
+
+
+/**************
+MAIN
+***************/
+
 
 .pictureBox {
-	max-width: 220px;
-	margin: 0;
-	display: inline-block;
-	padding: 10px;
+	float:left;
 	font-family: 'Josefin Sans', sans-serif;
-	list-style: none;
-	float: left;
+	font-size: 1.25em;
+	/*max-width: 25%;*/
+	background-color: lightyellow;
+
 }
-img {
-	max-height: 200px;
-	max-width: 201px;
-	margin: 0;
-	float: left;
+
+ul {
+	display: inline-block;
+	list-style: none;
+	padding: 2.5%;
 }
 
 .firstBox {
-	margin: 0 10%;
-	max-width: 760px;
-	float: left;
-	max-height: auto;
-	width: 50%;
 	font-family: 'Josefin Sans', sans-serif; 	
-	padding: 20px;
-}
-.secondBox {
-	margin: 0 0 0 10%;
-	max-width: 760px;
-	/*max-height: auto;*/
-	float: left;
-	width: 30%;
-	font-family: 'Josefin Sans', sans-serif; 
-	padding: 20px;	
 }
 
-.secondBoxImage {
-	margin: 9% 10% 0 0;
-	float: left;
-	max-width: 201px;
-	max-height: auto;
-	/*padding: 20px;*/
-}
-
-h2 {
-	font-family: 'Raleway', sans-serif;
-}
-
-h3 {
-	font-family: 'Raleway', sans-serif;
 }
 
 
-
-/*****************
-PAGE FOOTER
-*****************/
-.footer {
-	font-family: 'Josefin Sans', sans-serif;
-	max-width: 1000px;
-	text-align: center;
-	margin: 0 10%;
-	padding: 20px;
-	font-size: .75em;
-	position:bottom:0;  /*I really like this!  This and the next 2 lines keep the footer at the bottom*/
-	width: 100%;
-	display:block;
-	float: left;
 }
-
-
-
