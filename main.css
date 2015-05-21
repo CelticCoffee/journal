@@ -5,7 +5,7 @@ HEADING
 *****************/
 .name {
   float: left;
-  margin: auto;
+  margin: 2%;
 }
 
 h1 {
@@ -18,8 +18,8 @@ h1 {
 .contact {
 	display: inline-block;
 	float: left; 
-	margin: auto;
-	width: 100%;
+	margin: 2%;
+	width: 90%;
 	text-align: right;
 
 }	
@@ -44,21 +44,20 @@ CONTENT
 
 .pictureBox {
 	max-width: 220px;
-	margin: 0;
+	max-height: auto;
+	margin: 2.5% 0;
 	display: inline-block;
-	padding: 10px;
-	/*font-family: 'Josefin Sans', sans-serif;*/
+	padding: 2%
+	font-family: 'Josefin Sans', sans-serif;
 	list-style: none;
 	float: left;
 	background-color: lightyellow;
 }
 
- 
-
 img {
 	max-height: 200px;
 	max-width: 201px;
-	margin: 0;
+	margin: 5% 0;
 	float: left;
 }
 
@@ -75,17 +74,11 @@ img {
 .oneInspire {
 	font-size: 1em;
 	padding: 0;
-}
-
-ul {
-	display: list-item;
-	display: block;
 	list-style: none;
 }
 
-
 .secondBox {
-	margin: 0 0 0 10%;
+	margin: 0 0 0 35%;
 	max-width: 760px;
 	/*max-height: auto;*/
 	float: left;
