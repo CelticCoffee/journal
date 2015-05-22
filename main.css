@@ -1,60 +1,76 @@
-main.css
+
 
 /*****************
 HEADING
 *****************/
-.wrapper {
-	margin: 0 auto;
+.name {
+  float: left;
+  margin: 2%;
 }
 
 h1 {
-font-family: 'Raleway', sans-serif;
-font-size: 1.75em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.75em;
+  	padding: 0;
 }
 
 /*This nav a is the contact links*/
-nav a {
+.contact {
 	display: inline-block;
-	text-decoration: none;
+	float: left; 
+	margin: 2%;
+	width: 90%;
+	text-align: right;
 
 }	
 
-/*This is the styling for the contact links*/
-#contact {
-font-family: 'Raleway', sans-serif;
-max-width: 1000px;  /*Don't want the text getting crazy wide even if large montior*/
-text-align: right;
-text-indent: 1%;
-font-size: 1em;
-margin: 0 10%;
+li {
+	list-style: none;
 }
 
+a {
+  text-decoration: none;
+  font-family: 'Josefin-sans', sans-serif;
+  color: black;
+  padding: 20px;
+}
 
+a:hover {
+  color: red;
+}
 
 /*****************
 CONTENT
 *****************/
+body {
+	background-color: mediumOrchid;
+}
+
 .section {
 	float: left;
 }
 
 .pictureBox {
 	max-width: 220px;
-	margin: 0;
+	max-height: auto;
+	margin: 2.5% 0;
 	display: inline-block;
-	padding: 10px;
-	font-family: 'Josefin Sans', sans-serif;
+	padding: 2%
+	/*font-family: 'Josefin Sans', sans-serif;*/
 	list-style: none;
 	float: left;
+	background-color: lightYellow;
 }
+
 img {
 	max-height: 200px;
 	max-width: 201px;
-	margin: 0;
+	margin: 5% 0;
 	float: left;
 }
 
 .firstBox {
+	background-color: lightYellow;
 	margin: 0 10%;
 	max-width: 760px;
 	float: left;
@@ -63,8 +79,16 @@ img {
 	font-family: 'Josefin Sans', sans-serif; 	
 	padding: 20px;
 }
+
+.oneInspire {
+	font-size: 1em;
+	padding: 0;
+	list-style: none;
+}
+
 .secondBox {
-	margin: 0 0 0 10%;
+	background-color: lightYellow;
+	margin: 0 0 0 35%;
 	max-width: 760px;
 	/*max-height: auto;*/
 	float: left;
@@ -107,5 +131,4 @@ PAGE FOOTER
 	float: left;
 }
 
-
-
+*/
