@@ -1,15 +1,12 @@
 
-<<<<<<< HEAD
+
 /*****************
 HEADING
 *****************/
-.wrapper {
-	margin: 0 auto;
-}
 
 h1 {
-font-family: 'Raleway', sans-serif;
-font-size: 1.75em;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.75em;
 }
 
 /*This nav a is the contact links*/
@@ -21,54 +18,16 @@ nav a {
 
 /*This is the styling for the contact links*/
 #contact {
-font-family: 'Raleway', sans-serif;
-max-width: 1000px;  /*Don't want the text getting crazy wide even if large montior*/
-text-align: right;
-text-indent: 1%;
-font-size: 1em;
-margin: 0 10%;
-}
-
-
-
-=======
-
-/*****************
-HEADING
-*****************/
-.name {
-  float: left;
-  margin: 2%;
-}
-
-h1 {
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.75em;
-  	padding: 0;
-}
-
-/*This nav a is the contact links*/
-.contact {
-	display: inline-block;
-	float: left; 
-	margin: 2%;
-	width: 90%;
+	max-width: 1000px;  /*Don't want the text getting crazy wide even if large montior*/
 	text-align: right;
-
-}	
-
-a {
-  text-decoration: none;
-  font-family: 'Josefin-sans', sans-serif;
-  color: black;
-  padding: 20px;
+	text-indent: 1%;
+	font-size: 1em;
+	margin: 0 10%;
 }
 
-a:hover {
-  color: red;
-}
 
->>>>>>> gh-pages
+
 /*****************
 CONTENT
 *****************/
@@ -78,32 +37,17 @@ CONTENT
 
 .pictureBox {
 	max-width: 220px;
-<<<<<<< HEAD
 	margin: 0;
 	display: inline-block;
 	padding: 10px;
 	font-family: 'Josefin Sans', sans-serif;
 	list-style: none;
 	float: left;
-=======
-	max-height: auto;
-	margin: 2.5% 0;
-	display: inline-block;
-	padding: 2%
-	font-family: 'Josefin Sans', sans-serif;
-	list-style: none;
-	float: left;
-	background-color: lightyellow;
->>>>>>> gh-pages
 }
 img {
 	max-height: 200px;
 	max-width: 201px;
-<<<<<<< HEAD
 	margin: 0;
-=======
-	margin: 5% 0;
->>>>>>> gh-pages
 	float: left;
 }
 
@@ -116,20 +60,11 @@ img {
 	font-family: 'Josefin Sans', sans-serif; 	
 	padding: 20px;
 }
-<<<<<<< HEAD
+
+
+
 .secondBox {
 	margin: 0 0 0 10%;
-=======
-
-.oneInspire {
-	font-size: 1em;
-	padding: 0;
-	list-style: none;
-}
-
-.secondBox {
-	margin: 0 0 0 35%;
->>>>>>> gh-pages
 	max-width: 760px;
 	/*max-height: auto;*/
 	float: left;
@@ -172,9 +107,3 @@ PAGE FOOTER
 	float: left;
 }
 
-<<<<<<< HEAD
-
-
-=======
-*/
->>>>>>> gh-pages
